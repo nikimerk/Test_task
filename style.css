@@ -1,0 +1,95 @@
+table{
+    border-collapse: collapse;
+    font-family: "Lucida Grande", sans-serif;
+
+}
+
+
+
+
+
+textarea {
+    width: 48%;
+    margin-left: 10px;
+    height: 50px;
+    box-shadow: 0px 0px 10px lightgrey;
+    max-width: 48%;
+
+}
+
+.form{
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px lightgrey;
+    background: #EEEEEE;
+}
+
+.result{
+    word-break: break-all;
+    max-width: 95%;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px lightgrey;
+}
+
+
+
+#submit{
+    border: 0px;
+    width: 20%;
+    background-color: slategrey;
+    font: normal  17px/1.4em raleway, sans-serif;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.id{
+    width: 6%;
+}
+
+
+.text{
+    width: 77%;
+
+}
+.date{
+    min-width: 100px;
+    width: 8%;
+    text-align: center;
+}
+
+.delete{
+    width: 8%;
+}
+
+.delete>a{
+    text-decoration: none;
+    color: white;
+
+    display: inline-block;
+    padding: 5px 10px;
+    background: grey;
+    position: relative;
+}
+
+
+tr:nth-child(odd) {
+    background: #EEEEEE;
+}
+
+
+tr:nth-child(even) {
+    background: #E8E6D1;
+}
+td,th{
+    max-width: 80%;
+    font-weight: normal;
+    padding: 10px;
+    min-height: 40px;
+}
